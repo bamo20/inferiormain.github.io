@@ -1,0 +1,112 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+.header{
+  width: 100%;
+  height: 60px;
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.header h1{
+  color: white;
+}
+
+.searchbtn{
+  justify-content: center;
+  align-items: center;
+}
+
+#find{
+  width: 25vw;
+  height: 5vh;
+  border:none;
+  background-color: white;
+}
+
+#search{
+  color: black;
+  padding-left: 4px;
+  background-color: white;
+  padding:9px;
+  padding-top:5px;
+}
+
+
+.header h1 a{
+  color: white;
+  text-decoration: none;
+  font-size: 28px;
+  cursor: pointer;
+}
+
+.header.list{
+  display: inline-block;
+}
+
+.list a{
+  text-decoration: none;
+  color: white;
+  padding: 20px;
+  font-family: Arial;
+  font-size: 15px;
+  transition: 0.2s ease-in-out;
+}
+
+ .list a:hover{
+  color:aqua
+} 
+
+ 
+
+.content{
+  margin:50px;
+}
+
+.account{
+  position: absolute;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.align-boxes{
+
+}
+
+.align-boxes input{
+  display: block;
+  margin:40px;
+  padding-left: 10px;
+  border: 1px solid black;
+}
+
+#text{
+  width: 30vw;
+  height: 50px;
+}
+
+#email{
+  width: 30vw;
+  height: 50px;
+}
+
+#submit{
+  width: 130px;
+  text-align: center;
+  height: 50px;
+  font-size: 19px;
+  background-color: black;
+  color: white;
+  padding-right: 10px;
+}
+
+
